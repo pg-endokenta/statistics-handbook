@@ -52,11 +52,16 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 nav:
   - ホーム: index.md
+  - 定義:
+    - definitions/index.md
+    - definitions/conditional-probability.md
   - 解答解説: 
     - answers/index.md
     - "数理統計学（改訂版）":
       - answers/9784785314118/index.md
       - answers/9784785314118/01-01.md
+      - answers/9784785314118/01-02.md
+      - answers/9784785314118/01-05.md
       - answers/9784785314118/01-08.md
   - 参考文献: bibliography.md
 
