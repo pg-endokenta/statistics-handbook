@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# ようこそ
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+統計学に関する情報をまとめています．
 
-## Commands
+主に，統計学に関する書籍の演習問題に対する自作の解答解説を掲載する予定です．
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [演習問題に対する自作の解答解説](./answers/index.md)

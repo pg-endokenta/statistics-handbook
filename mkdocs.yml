@@ -1,4 +1,63 @@
-site_name: My Docs
-site_url: https://example.com/
+site_name: 統計学ハンドブック
+site_url: https://pg-endokenta.github.io/statistics-handbook/
 theme:
-  name: material
+  name: material  
+  language: ja
+  icon:
+    logo: material/chart-bell-curve
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  # favicon: images/chart-bell-curve.png
+  favicon: images/favicon.png
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.sections
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.footer
+# git repository
+repo_url: https://github.com/pg-endokenta/statistics-handbook
+repo_name: statistics-handbook
+edit_uri: edit/main/docs/
+markdown_extensions:
+  # for mathjax
+  - pymdownx.arithmatex:
+      generic: true
+  # 外部リンクを新しいタブで開く
+  - attr_list
+extra_javascript:
+  # for mathjax
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+nav:
+  - ホーム: index.md
+  - 解答解説: 
+    - answers/index.md
+    - "数理統計学（改訂版）":
+      - answers/9784785314118/index.md
+      - answers/9784785314118/01-01.md
+      - answers/9784785314118/01-08.md
+  - 参考文献: bibliography.md
+
+
