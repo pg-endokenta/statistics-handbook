@@ -57,6 +57,11 @@ nav:
     - definitions/conditional-probability.md
   - 解答解説: 
     - answers/index.md
+    - "データ解析のための数理統計入門":
+      - answers/9784320115514/index.md
+      - answers/9784320115514/01-01.md
+      - answers/9784320115514/01-02.md
+      - answers/9784320115514/01-07.md
     - "数理統計学（改訂版）":
       - answers/9784785314118/index.md
       - answers/9784785314118/01-01.md
